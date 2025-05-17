@@ -1,0 +1,227 @@
+div.container {
+    width: 20%;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    display: grid;
+    gap: 20px;
+}
+
+div.container h1 {
+    color: #121212;
+    font-size: 25px;
+    margin: 0;
+}
+
+div.container form {
+    display: grid;
+    gap: 10px;
+}
+
+div.container form div.col {
+    display: grid;
+    gap: 10px;
+    text-align: left;
+}
+
+div.container form input, textarea {
+    font-size: 16px;
+    color: #121212;
+    border: 1px solid #c1c1c1;
+    border-radius: 3px;
+    padding: 10px;
+    outline: none;
+}
+
+div.container form .submit {
+    font-size: 16px;
+    color: #fff;
+    background-color: #121212;
+    border: 1px solid #121212;
+    border-radius: 3px;
+    text-decoration: none;
+    padding: 10px;
+    width: fit-content;
+    margin: auto;
+    cursor: pointer;
+}
+
+div.container form .btn-gp {
+    display: flex !important;
+    margin: auto;
+}
+
+div.container form .submit:hover {
+    color: #121212;
+    background-color: #fff;
+}
+
+div.container .alert {
+    color: #121212;
+    font-size: 16px;
+    border: 1px solid #c1c1c1;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 0;
+}
+
+div.container-fluid {
+    width: 50%;
+    margin: auto;
+    display: grid;
+    gap: 20px;
+}
+
+div.container-fluid .alert {
+    color: #121212;
+    font-size: 16px;
+    border: 1px solid #c1c1c1;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 0;
+    width: fit-content;
+    margin: auto;
+}
+
+div.dashboard-menu {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div.dashboard-menu h1 {
+    font-size: 25px;
+    color: #121212;
+    padding: 10px;
+    margin: 0;
+}
+
+div.dashboard-menu a.menu-link:link {
+    color: #121212;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0;
+}
+
+div.dashboard-menu a.menu-link:visited {
+    color: #121212;
+}
+
+div.blogs {
+    display: grid;
+    gap: 10px;
+}
+
+div.blogs div.col {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.blogs div.col a.menu-link:link {
+    font-size: 16px;
+    color: #121212;
+    text-decoration: none;
+}
+
+div.blogs div.col a.menu-link:visited {
+    color: #121212;
+}
+
+div.blogs div.col h2 {
+    font-size: 16px;
+    color: #121212;
+    padding: 10px;
+    margin: 0;
+}
+
+div.blogs div.menus {
+    display: flex;
+    gap: 10px;
+}
+
+div.blogs div.menus a.menu-link:link {
+    font-size: 16px;
+    color: #121212;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0;
+}
+
+div.pagination {
+    display: flex;
+    gap: 10px;
+    margin: auto;
+}
+
+div.pagination a.pagination-link:link {
+    font-size: 16px;
+    color: #121212;
+    border: 1px solid #666;
+    border-radius: 3px;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0;
+}
+
+div.pagination a.pagination-link:visited {
+    color: #121212;
+}
+
+div.pagination a.pagination-link:hover {
+    color: #FFFFFF;
+    background-color: #121212;
+}
+
+div.view-content h1.title{
+    font-size: 25px;
+    color: #121212;
+    padding: 10px;
+    margin: 0;
+}
+
+div.view-content p.date {
+    font-size: 16px;
+    color: #121212;
+    padding: 10px;
+    margin: 0;
+}
+
+div.view-content p.content {
+    font-size: 16px;
+    color: #121212;
+    padding: 10px;
+    margin: 0;
+}
+
+.view-btn-gp {
+    display: flex;
+    padding: 10px;
+}
+
+a.view-back:link {
+    color: #FFFFFF;
+    background-color: #121212;
+    border: 2px solid #121212;
+    border-radius: 3px;
+    text-decoration: none;
+    padding: 10px;
+    width: fit-content;
+}
+
+a.view-back:visited {
+    color: #FFFFFF;
+    background-color: #121212;
+    border: 2px solid #121212;
+    border-radius: 3px;
+}
+
+a.view-back:hover {
+    color: #121212;
+    background-color: #FFFFFF;
+}
